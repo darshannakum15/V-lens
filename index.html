@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>V-lens</title>
+    <link rel="stylesheet" href="css.css ">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="nav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="/img/logo-black.png" width="100" height="30" alt="v-lens-logo" id="a">
+        </a>
+        <button class="navbar-toggler" style="outline: none;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>            
+          </ul>
+          <ul class="nav navbar-nav  navbar-right">
+            <li class="nav-item">
+              <a class="nav-link"  data-toggle="modal" data-target="#loginModal">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-toggle="modal" data-target="#signModal">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+</nav>
+      
+<div class="progress-bar" id="myBar"></div>
+<br><br><br>
+<div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >      
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img class="d-block w-100 d-none" src="/img/sony.jpg" alt="First slide" id="caros-img" alt="sony">
+          <div class="carousel-caption d-none d-md-block">
+            <p> <b> -[Sony Sony α99 II GREEN GRASS]- </b> </p>
+          </div>
+        </div>
+        <div class="carousel-item  active">
+          <img class="d-block w-100" src="/img/2.png" alt="Second slide" id="caros-img" alt="V-lens">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/img/zebra.jpg" alt="Third slide" id="caros-img" alt="Zebra">
+          <div class="carousel-caption d-none d-md-block">
+              <p><b>--[Adventure Africa]--</b></p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <br>
+  <hr>
+  <br>
+<div class="container">  
+  <div class="row">
+    <div class="col-lg-4">
+        <img src="/img/1_th.jpeg" class="img-thumbnail" alt="Golden Gate Bridge">
+        <p class="text-center">Golden Gate Bridge</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="/img/2_th.jpg" class="img-thumbnail" alt="Desert Land">
+      <p class="text-center">Desert Land</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="/img/3_th.jpg" class="img-thumbnail" alt="Hill Station">
+      <p class="text-center">Hill Station</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="/img/4_th.jpg" class="img-thumbnail" alt="Banff National Park">
+      <p class="text-center">Banff National Park</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="/img/5_th.jpg" class="img-thumbnail" alt="San Francisco">
+      <p class="text-center">San Francisco</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="/img/6_th.jpg" class="img-thumbnail" alt="France Houses Evening Paris">
+      <p class="text-center">France Houses Evening Paris</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="/img/7_th.jpg" class="img-thumbnail" alt="Roseate-Spoonbills-at-Sunrise.">
+      <p class="text-center">Roseate-Spoonbills-at-Sunrise</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="/img/8_th.jpg" class="img-thumbnail" alt="Northern tip of Santa Catalina Island">
+      <p class="text-center">Northern tip of Santa Catalina Island</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="/img/9_th.jpg" class="img-thumbnail" alt="California's Central Coast">
+      <p class="text-center">California's Central Coast</p>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content" id="lol">
+        <div class="wrapper">
+          <button type="button" style="padding-right:19px;padding-bottom: 10px;outline: none; " class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="logo">
+              <img src="/img/logo-login1.jpg" alt="">
+          </div>
+          <div class="text-center mt-4 name">
+              <b> V-lens </b>
+          </div>
+          <form class="p-3 mt-3" action="javascript:alert('Login and sign up system is under construction');">
+              <div class="form-field d-flex align-items-center" >
+                  <span class="far fa-user"></span>
+                  <input type="text" name="userName" id="userName" placeholder="Username" required>
+              </div>
+              <div class="form-field d-flex align-items-center">
+                  <span class="fas fa-key"></span>
+                  <input type="password" name="password" id="pwd" placeholder="Password" required>
+              </div>
+              <center><button type="submit" class="btn mt-3">Login</button></center>
+          </form>
+          <div class="text-center fs-6">
+              <a href="#">Forget password?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="signModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content" id="lol"> 
+        <div class="wrapper">
+          <button type="button" style="padding-right:19px;padding-bottom: 10px;outline: none; " class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="logo">
+              <img src="/img/logo-login1.jpg" alt="">
+          </div>
+          <div class="text-center mt-4 name">
+              <b> V-lens </b>
+          </div>
+          <form class="p-3 mt-3" action="javascript:alert('Login and sign up system is under construction');">
+            <table><tr>            
+            <td><div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div></td>
+            <td><div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="text" name="LastName" id="LastName" placeholder="LastName" required>
+            </div></td></tr>
+            <tr><td><div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="npassword" id="npwd" placeholder="Password" required>
+            </div></td>
+            <td><div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="cfmpassword" id="cfmpwd" placeholder="Cfm Password" required>
+            </div></td></tr>
+            </table>
+            <center><button type="submit" class="btn mt-3">Sign Up</button></center>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer>
+  <div class="text-center p-3">
+    © 2023 Copyright:
+    <a href="https://v-lens.netlify.com" id="vlenslink" target="_blank" rel="noopener noreferrer">V-lens.com</a>
+  </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $('.carousel').on('touchstart', function(event){
+          const xClick = event.originalEvent.touches[0].pageX;
+          $(this).one('touchmove', function(event){
+              const xMove = event.originalEvent.touches[0].pageX;
+              const sensitivityInPx = 5;
+
+              if( Math.floor(xClick - xMove) > sensitivityInPx ){
+                  $(this).carousel('next');
+              }
+              else if( Math.floor(xClick - xMove) < -sensitivityInPx ){
+                  $(this).carousel('prev');
+              }
+          });
+          $(this).on('touchend', function(){
+              $(this).off('touchmove');
+          });
+          });
+
+
+          $('.carousel').bind('mousewheel', function(e) {
+          if(e.originalEvent.wheelDelta /120 > 0) {
+              $(this).carousel('next');
+          } else {
+              $(this).carousel('prev');
+          }
+      });
+
+      // When the user scrolls the page, execute myFunction 
+      window.onscroll = function() {myFunction()};
+      function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+      }
+    </script>
+</body>
+</html>
