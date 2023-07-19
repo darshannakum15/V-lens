@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-lens</title>
+
+    <!-- swiper css link -->
+    <link
+  rel="stylesheet"  
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!--cusrtom css file link--->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <!-- header section starts -->
+    <section class="header">
+        <a href="index.html" class="logo" id="logo">V-lens</a>
+        <nav class="navbar"> 
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Images.html">Images</a>
+            <a href="ContactUs.html">Contact Us</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"> </div>
+    </section>
+    <!-- heaer section ends -->
+    
+
+
+    
+    
+
+
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="index.html"><i class="fas fa-angle-right"></i>Home</a>
+                <a href="About.html"><i class="fas fa-angle-right"></i>About</a>
+                <a href="Images.html"><i class="fas fa-angle-right"></i>Images</a>
+                <a href="ContactUs.html"><i class="fas fa-angle-right"></i>Contact Us</a>
+            </div>
+
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#"><i class="fas fa-angle-right"></i>Ask Questions</a>
+                <a href="#"><i class="fas fa-angle-right"></i>privacy policy</a>
+                <a href="#"><i class="fas fa-angle-right"></i>terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +91 999XX9XX99 </a>
+                <a href="#"><i class="fas fa-phone"></i> +91 999XX9XX98 </a>
+                <a href="#"><i class="fas fa-envelope"></i> alonewarrior2004@gmail.com </a>
+                <a href="#"><i class="fas fa-map"></i> Jamnagar, India - 361009  </a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> FaceBook </a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter </a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin  </a>
+            </div>
+
+        </div>    
+        <div class="credit">Created By <span> Darshan Nakum</span> | all rights reseverd! © 2023</div>
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+<!-- swiper  -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+<!-- custom js file link -->
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
